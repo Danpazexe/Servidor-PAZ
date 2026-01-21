@@ -1,3 +1,5 @@
+
+
 # Guia de Configuração: Servidor Vanilla Anarchy (SG)
 
 Este guia documenta todas as alterações feitas para transformar o servidor Paper 1.20.1 em uma experiência **Vanilla/Anarchy** autêntica (estilo SG), removendo otimizações agressivas e permitindo exploits técnicos.
@@ -8,7 +10,7 @@ Este guia documenta todas as alterações feitas para transformar o servidor Pap
 Customização visual do servidor.
 
 ```properties
-motd=\u00A73\u00A7lSERVIDOR DE TESTE \u00A78- \u00A7b\u00A7lPAZ\n\u00A77Experi\u00AAncia Vanilla Sem Limites
+motd=§6SERVIDOR §l§eAD§l§bLAND\n§7Construindo em Comunhão
 ```
 
 ### `config/paper-global.yml`
@@ -96,9 +98,13 @@ Para manter o servidor sem plugins (.jar), utilizamos um **Datapack** customizad
 
 ### Instalação
 Copie a pasta `boas_vindas` para `world/datapacks/`.
-Estrutura: `world/datapacks/boas_vindas/data/paz/functions/...`
+Estrutura: `world/datapacks/boas_vindas/data/paz/functions/...` (ajuste de acordo com o seu servidor)
 
 ### Funcionalidades
 - **Detecta primeira entrada**: Exibe título "BEM VINDO" e mensagem no chat global.
 - **Detecta retorno**: Exibe título "BEM VINDO DE VOLTA" e mensagem pessoal.
 - **Scoreboards**: Cria scoreboards `leaves` (nativo) e `seen_leaves` (dummy) para comparar se o jogador saiu e voltou.
+
+## 3. Imagem do Servidor
+
+![Logo do Servidor] Enviador Via DIRECT
