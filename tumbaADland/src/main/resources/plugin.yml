@@ -1,0 +1,15 @@
+name: TumbaADland
+version: 1.0.0
+main: br.com.tumbaadland.TumbaADlandPlugin
+api-version: '1.20'
+author: adland
+commands:
+  tumba:
+    description: Mostra a ultima tumba do jogador.
+  tumbaadmin:
+    description: Administra tumbas.
+    permission: tumbaadland.admin
+permissions:
+  tumbaadland.admin:
+    description: Comandos administrativos do TumbaADland.
+    default: op

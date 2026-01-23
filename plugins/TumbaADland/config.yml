@@ -1,0 +1,27 @@
+tomb:
+  timeout-minutes: 5
+  warnings: [5, 3, 1, 0.5]
+  protect: true
+  allow-owner-break: true
+  end-void-radius: 64
+experience:
+  return-rate: 0.5
+hologram:
+  height: 1.6
+  spacing: 0.3
+  lines:
+    - "&6&lTUMBA &f%player%"
+    - "&6Causa: &f%death%"
+    - "&eItens: &f%items%"
+    - "&aTempo restante: &f%time%"
+  name: "&6&lTUMBA &f%player%"
+  death: "&6Causa: &f%death%"
+  time: "&aTempo restante: &f%time%"
+messages:
+  stored: "&aSeus itens foram guardados em sua tumba."
+  expired: "&cSua tumba expirou e foi removida."
+  remaining: "&eVoce tem &f%time% &epara recuperar seus itens."
+  denied: "&cEsta tumba pertence a outro jogador."
+  no-tomb: "&eVoce nao tem tumba ativa."
+  coords: "&eSua tumba: &f%world% X:%x% Y:%y% Z:%z%"
+  inventory-title: "&8Tumba de %player%"
